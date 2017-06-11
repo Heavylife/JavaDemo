@@ -29,7 +29,7 @@ public class T {
 			cells[i].row++;
 		}
 	}
-	public void moveLift(){
+	public void moveLeft(){
 		for(int i = 0;i<cells.length-1;i++){
 			cells[i].col--;
 		}
