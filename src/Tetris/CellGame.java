@@ -8,11 +8,16 @@ public class CellGame {
 		int inPut;
 		printCell(cell);
 		do{//循环
+			
 			System.out.println("请输入操作项目：");
 			Scanner sc = new Scanner(System.in);
 			inPut =  sc.nextInt();
+			if(inPut == 0){
+				break;
+			}
 			fun(inPut,cell);
 			printCell(cell);
+			
 		}while(inPut != 0);
 		System.out.println("游戏结束！");
 

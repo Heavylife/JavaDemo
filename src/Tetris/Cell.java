@@ -4,6 +4,14 @@ package Tetris;
 public class Cell {
 	int row;//行号
 	int col;//列号
+	
+	public Cell(int row,int col){
+		this.row = row;
+		this.col = col;
+	}
+	public Cell(){
+		this(0,0);	
+		}
 	public void drop(){//下落方法
 		row++;
 	}
