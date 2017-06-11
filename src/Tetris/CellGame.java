@@ -16,8 +16,7 @@ public class CellGame {
 				break;
 			}
 			fun(inPut,cell);
-			printCell(cell);
-			
+			printCell(cell);		
 		}while(inPut != 0);
 		System.out.println("”Œœ∑Ω· ¯£°");
 
