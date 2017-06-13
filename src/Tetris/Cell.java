@@ -1,7 +1,7 @@
 package Tetris;
 
 
-public class Cell {
+public  class Cell {
 	int row;//ÐÐºÅ
 	int col;//ÁÐºÅ
 	
