@@ -10,4 +10,9 @@ public class TetrominoJ extends Tetromino{
 		cells[2] = new Cell(row,col+2);
 		cells[3] = new Cell(row+1,col+2);
 	}
+	public void print(){
+		System.out.println("I am a J");//·½·¨ÖØÐ´
+		super.print();
+	}
 }
+
